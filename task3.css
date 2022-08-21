@@ -50,6 +50,13 @@ div.parent{
   text-align: center; 
   padding: 7px;
 }
+@media screen and (max-width: 871px){
+  div.parent{
+      width: 95%;
+
+  }
+}
+
 div.child{
   border: 5px solid;
   background-color:rgba(0, 0, 0, 0.801); 
@@ -69,8 +76,15 @@ div.child{
   font-weight: 900;
   color:white;
   margin-bottom: 50px;
-
 }
+
+@media screen and (max-width: 459px){
+  .child h1{
+    font-size: 30px;
+
+  }
+}
+
 .formGroup{
   margin-bottom: 30px;
 }
@@ -114,6 +128,13 @@ div.child{
   transition: ease-in-out 300ms;
   font-size: 35px;
 
+}
+
+@media screen and (max-width: 1095px){
+  .formGroup button{
+      float: none;
+      margin-bottom: 0px;
+  }
 }
 
 input{
