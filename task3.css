@@ -1,0 +1,151 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+  }
+  
+li img{
+    padding-top:5px;
+    margin-left: 30px; 
+    width: 60px;
+    height: 70px;
+    float: left;
+    border-radius: 10px;
+  }
+  
+li a {
+    display: block;
+    font-weight: 900;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    padding: 17px 100px;
+    text-decoration: none;
+  }
+  
+li a:hover:not(.active) {
+    background-color: #111;
+  }
+
+div.parent{
+  background-image: url("temperature.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  box-shadow: 10px 10px 30px blue;
+  width:50%; 
+  height:auto;
+  margin: 40px auto; 
+  text-align: center; 
+  padding: 7px;
+}
+@media screen and (max-width: 871px){
+  div.parent{
+      width: 95%;
+
+  }
+}
+
+div.child{
+  border: 5px solid;
+  background-color:rgba(0, 0, 0, 0.801); 
+  width:70%; 
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
+  text-align: center; 
+  padding: 2px; 
+  margin: 0 auto; 
+  overflow: auto;
+  word-wrap: break-word;
+}
+
+.child h1{
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color:white;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 459px){
+  .child h1{
+    font-size: 30px;
+
+  }
+}
+
+.formGroup{
+  margin-bottom: 30px;
+}
+.formGroup label:hover{
+  font-size: 30px;
+  transition: ease-in-out 500ms;
+}
+.formGroup label{
+  color: white;
+  font-size: 20px;
+  font-family: 'Cambria, Cochin', Georgia, Times, 'Times New Roman', serif;
+  font-weight: 600;
+  
+}
+
+ .formGroup button{
+  background-color: blue;
+  border-color: beige;
+  padding: 5px 20px;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 10px;
+  box-shadow: 3px 2px 5px rgb(255, 255, 255);
+  margin-bottom: 25px;
+
+}
+
+.submitButton{
+  margin-left: 25px;
+  float: left;
+
+}
+
+.bt2{
+  float: right;
+  margin-right: 25px;
+}
+
+.formGroup button:hover{
+  transition: ease-in-out 300ms;
+  font-size: 35px;
+
+}
+
+@media screen and (max-width: 1095px){
+  .formGroup button{
+      float: none;
+      margin-bottom: 0px;
+  }
+}
+
+input{
+    font-size: 20px;
+    width: 90%;
+    height: 40px;
+    border-radius: 25px; 
+    border: 1px solid whitesmoke;
+    padding: 2px 10px;
+     transition: all 0.3s ease; 
+    margin-top: 10px;
+    font-weight: 700;
+}
+
